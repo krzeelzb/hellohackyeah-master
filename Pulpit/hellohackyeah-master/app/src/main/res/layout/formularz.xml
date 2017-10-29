@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.kb.hackyeaaah.AddNote">
+    >
+
+    <TextView
+        android:id="@+id/textImie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imię"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editTextImie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Imię" />
+
+    <TextView
+        android:id="@+id/textViewNazwisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nazwisko" />
+
+    <EditText
+        android:id="@+id/editTextNazwisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nazwisko" />
+
+    <TextView
+        android:id="@+id/textViewNumerTelefonu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numer Telefonu" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Numer Telefonu" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ulica:"/>
+        <!--android:textAlignment="center"-->
+        <!--android:layout_marginEnd="50dp"/>-->
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ulica" />
+
+
+
+
+    <TextView
+        android:id="@+id/textViewNumerFlat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numer mieszkania" />
+
+    <EditText
+        android:id="@+id/editMIeszkanie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Numer Mieszkania" />
+
+    <TextView
+        android:id="@+id/textDom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numer Domu" />
+
+    <EditText
+        android:id="@+id/editDom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Dom" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>

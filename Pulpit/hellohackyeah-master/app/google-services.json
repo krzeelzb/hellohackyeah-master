@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "997657199525",
+    "firebase_url": "https://hack-4d51c.firebaseio.com",
+    "project_id": "hack-4d51c",
+    "storage_bucket": "hack-4d51c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997657199525:android:cdf5c157464434db",
+        "android_client_info": {
+          "package_name": "com.example.kb.hackyeaaah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997657199525-qgdavhak975d8cqkqge9g0hbpvjite9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl1JONAiwkuGG9pggH5wx45yr5OmqK9vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
